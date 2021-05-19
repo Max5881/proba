@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ru.sapteh.Controller.MainWindowController">
+   <children>
+      <TableView fx:id="productTableView" prefHeight="400.0" prefWidth="453.0">
+        <columns>
+          <TableColumn fx:id="adresSkladaColum" prefWidth="115.0" text="Адресс склада" />
+          <TableColumn fx:id="nameProductColumn" prefWidth="170.0" text="Наименование продукта" />
+            <TableColumn fx:id="typeProductaColumn" prefWidth="167.0" text="Тип продукта" />
+        </columns>
+      </TableView>
+      <Button fx:id="createButton" layoutX="496.0" layoutY="277.0" mnemonicParsing="false" text="Добавить" />
+      <Button fx:id="deleteButton" layoutX="496.0" layoutY="321.0" mnemonicParsing="false" text="Удалить" />
+      <Button fx:id="updateButton" layoutX="496.0" layoutY="361.0" mnemonicParsing="false" text="Изменить" />
+      <Button fx:id="buttonRefresh" layoutX="500.0" layoutY="188.0" mnemonicParsing="false" text="Button" />
+      <TextField fx:id="searchTxt" layoutX="452.0" layoutY="34.0" />
+   </children>
+</AnchorPane>
